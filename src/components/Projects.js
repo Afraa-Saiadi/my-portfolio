@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link  } from 'react-scroll';
 // import { Card, Icon, Image } from 'semantic-ui-react';
+import background from '../com.jpg';
+import image from '../she.jpg';
 
 function Projects() {
     return (
@@ -8,8 +10,8 @@ function Projects() {
             <div style={{width:'80%', height:'70%', margin:'auto' , border:'solid 1px grey',boxShadow:' 3px 5px 5px grey', backgroundColor:'#F5F5F5', padding:'20px',display:'flex',justifyContent:'space-around'}}>
                 <h1 style={{marginTop:'-20px',font:'50px Arial sans-serif'}}>Some<br/> Of<br/> My<br/> Projects</h1> 
                 <div className="ui card">
-                    <div className="image">
-                        <img src="https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJ1c2luZXNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt='lamp'/>
+                    <div style={{height:'80%',width:'100%', backgroundImage:`url(${background})`,backgroundSize:'100% 100%'}}>
+                        
                     </div>
                     <div className="content">
                         <div className="header">GitHub using React</div>
@@ -18,8 +20,8 @@ function Projects() {
                     <div style={{paddingLeft:'10px'}}><a href=' # '>Read more</a></div>
                 </div> 
                 <div className="ui card">
-                    <div className="image">
-                        <img src="https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJ1c2luZXNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"alt='lamp' />
+                    <div style={{height:'80%',width:'100%', backgroundImage:`url(${image})`,backgroundSize:'100% 100%'}}>
+                        
                     </div>
                     <div className="content">
                         <div className="header"> Open Weather Map API</div>
