@@ -31,7 +31,7 @@ export default function Header() {
                         
                     </div> 
                     <div  style={{textAlign:'center' ,font:'50px Arial sans-serif', color:'white',marginTop:'200px' }}>
-                        Afraa Saiadi<br/>Web Developer
+                        Afraa Saiadi<br/> Junior Web Developer
                         {/* <span ref={textRef}><br/></span><br/> */}
                         <a  target='_blank' href ='Afraa Saiadi CV NL.pdf' download>Download cv</a>
                     </div>
